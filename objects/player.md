@@ -1,5 +1,4 @@
-[`< Back to main documentation`](README.md)
-
+[`< Back to main documentation`](../README.md)
 ## Player Object
 
 ### Functions
