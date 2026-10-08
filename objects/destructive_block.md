@@ -1,6 +1,6 @@
 [`< Back to main documentation`](../README.md)
 
-## Destructable Block Object
+## Destructive Block Object
 
 ### Functions
 

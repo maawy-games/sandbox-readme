@@ -1,6 +1,6 @@
 [`< Back to main documentation`](../README.md)
 
-## Destructable Platform Block Object
+## Destructive Platform Block Object
 
 ### Functions
 
