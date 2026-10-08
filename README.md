@@ -1,4 +1,4 @@
-# Makers's Sandbox
+# Maker's Sandbox
 
 ## Learn to code by building the game you've always wanted to play.
 
