@@ -2,7 +2,7 @@
 
 ## Learn to code by building the game you've always wanted to play.
 
-Drag. Drop. Code. Play. Make real games in minutes and pick up real programming skills along the way.
+Drag. Drop. Code. Play. Make real games in minutes and pick up real Lua programming skills along the way.
 
 # References
 
