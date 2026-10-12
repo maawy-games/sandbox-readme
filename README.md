@@ -48,15 +48,17 @@ The pro version has everything from the free version with the following addition
 ### Features
 
 * Larger Canvas Area (you can create larger scenes not limited to the visible screen size - by being able to pan around)
-* Ability to Save and Open project files.
-* Attaching a camera to a moving object - ideal for when you need to move around large scenes.
-* Ability to move the camera around the scene.
-* Character: Different color variants.
-* Player: Different color variants.
-* Ability to use timers.
-* Ability to create ripples.
+* Create scene level code.
+* Save and Open project files.
+* Attach a camera to a moving object - ideal for when you need to move around large scenes.
+* Move the camera around the scene.
+* Make use of Different Character object color variants.
+* Make use of Different Player object color variants.
+* Create and respond to timers.
+* Create ripple animations.
+* Creating Physics Joints.
 
-### Additional Objects
+### Additional Pro Level objects
 
 * [Bomb](objects/bomb.md)
 * [Catapult](objects/catapult.md)
@@ -76,6 +78,7 @@ The pro version has everything from the free version with the following addition
 
 ### Additional event handlers
 
+* `change_scene`
 * `impulse_grid_engaged`
 * `switch_on`
 * `switch_off`

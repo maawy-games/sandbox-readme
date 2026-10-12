@@ -12,6 +12,10 @@
 * `timer_timeout(timer_name: String)` - when a timer times out.
 * `object_spawned(object_type: String, object_name: String)` - when a new object is created - by the spawner.
 
+## Scene events (pro version)
+
+* `change_scene` (only available in scene scripts)
+
 ## Bomb events (pro version)
 
 * `bomb_exploded(param: String, object_name: String)`
