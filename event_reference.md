@@ -14,7 +14,7 @@
 
 ## Scene events (pro version)
 
-* `change_scene` (only available in scene scripts)
+* `change_scene(new_scene: String)` (only available in scene scripts)
 
 ## Bomb events (pro version)
 
