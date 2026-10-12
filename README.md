@@ -72,6 +72,7 @@ The pro version has everything from the free version with the following addition
 * [Spawner](objects/spawner.md)
 * [Spikes](objects/spikes.md)
 * [Switch](objects/switch.md)
+* [Wheel](objects/wheel.md)
 
 ### Additional event handlers
 
