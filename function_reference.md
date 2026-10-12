@@ -26,6 +26,7 @@ These functions are available for all objects.
 * `set_scene_camera_position(x_position: int, y_position: int)` - Sets the scene camera (if enabled) to X and Y coordinates specified.
 * `get_scene_camera_position_x()` - Gets X coordinate of scene camera.
 * `get_scene_camera_position_y()` - Gets Y coordinate of scene camera.
+* `get_object_id()` - Gets the unique `object_id` of the object.
 
 ## KeyCode reference
 
