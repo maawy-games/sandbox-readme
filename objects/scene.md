@@ -20,6 +20,7 @@ Represents the scene itself.
 * `create_rope_joint(joint_id: String, id_a: String, id_b: String, max_distance: float, center_joint: bool = true, place_at_initial_position: bool = true)` - Creates a rope joint.
   * `max_distance` - Maximum rope distance.
 * `destroy_joint(joint_id: String)` - Destroys a joint with `joint_id` unique identifier.
+* `spawn_object(object_type: String, position_x: int, position_y: int, object_id: String = "")` - Creates an object of `object_type` type at position X and Y with `object_id` equal to the `object_id` parameter.
 
 ### Shared joint parameters
 
