@@ -6,6 +6,7 @@ These functions are available for all objects.
 
 * `console(string: String)` - Prints the string to the stage console.
 * `change_scene(scene_name: String)` - Change the current scene to the name specified.
+* `reload_scene()` - Reloads the current scene.
 * `broadcast_message(key: String, value: String)` - Sends a broadcast message to other objects.
 * `kill()` - kills the current object.
 * `get_object_name()` - name of the current object.
