@@ -20,7 +20,30 @@ Represents the scene itself.
 * `create_rope_joint(joint_id: String, id_a: String, id_b: String, max_distance: float, center_joint: bool = true, place_at_initial_position: bool = true)` - Creates a rope joint.
   * `max_distance` - Maximum rope distance.
 * `destroy_joint(joint_id: String)` - Destroys a joint with `joint_id` unique identifier.
-* `spawn_object(object_type: String, position_x: int, position_y: int, object_id: String = "")` - Creates an object of `object_type` type at position X and Y with `object_id` equal to the `object_id` parameter.
+* `spawn_object(object_type: String, position_x: int, position_y: int, object_id: String = "", events: Array = [])` - Creates an object of `object_type` type at position X and Y with `object_id` equal to the `object_id` parameter.
+
+### Spawn object events
+
+The `spawn_object` function has an events array to pass to it to allow you to respond to those events in code. For instance, you can pass the following as a parameter to connect the `switch_on` and `switch_off` events for the object: `spawn_object( ... , Array{ 'switch_on', 'switch_off' })`
+
+#### Spawn objects event list:
+
+* `bomb_exploded`
+* `broadcast_message`
+* `coin_picked`
+* `explosive_exploded`
+* `gem_picked`
+* `impulse_grid_engaged`
+* `key_picked`
+* `lever_switched`
+* `object_spawned`
+* `propulsion_object_detected`
+* `propulsion_object_pushed`
+* `spring_engaged`
+* `switch_off`
+* `switch_on`
+* `timer_timeout`
+* `variable_changed`
 
 ### Shared joint parameters
 
