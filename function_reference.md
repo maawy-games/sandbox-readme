@@ -5,6 +5,7 @@ These functions are available for all objects.
 ## Free version
 
 * `console(string: String)` - Prints the string to the stage console.
+* `show_message(message: String)` - Shows an alert message.
 * `change_scene(scene_name: String)` - Change the current scene to the name specified.
 * `reload_scene()` - Reloads the current scene.
 * `broadcast_message(key: String, value: String)` - Sends a broadcast message to other objects.
