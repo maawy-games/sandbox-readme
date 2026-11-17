@@ -29,6 +29,10 @@ These functions are available for all objects.
 * `get_scene_camera_position_x()` - Gets X coordinate of scene camera.
 * `get_scene_camera_position_y()` - Gets Y coordinate of scene camera.
 * `get_object_id()` - Gets the unique `object_id` of the object.
+* `show_gem_counter(show: bool, color: String, initial_count: int)` - Shows / Hide gem counter indicator with `initial_count` gems. Color can be `red`, `green`, `blue` or `yellow`
+* `show_coin_counter(show: bool, initial_count: int)` - Shows / Hide coin counter indicator with `initial_count` coins.
+* `set_gem_counter(color: String, count: int)` - Sets the gem count of gem color `color` to the `count`.
+* `set_coin_counter(count: int)` - Sets the coin count to the `count`.
 
 ## KeyCode reference
 
