@@ -34,6 +34,27 @@ These functions are available for all objects.
 * `set_gem_counter(color: String, count: int)` - Sets the gem count of gem color `color` to the `count`.
 * `set_coin_counter(count: int)` - Sets the coin count to the `count`.
 
+## Shared functions for rigid bodies
+
+### Rigid bodies
+
+* `block`
+* `bomb`
+* `destructible_block`
+* `explosive`
+* `locked_block`
+* `player`
+* `propulsion`
+* `spawner`
+* `wheel`
+
+### Shared functions
+
+* `add_constant_force(x: float, y: float)` - Sets a constant force.
+* `apply_impulse(x: float, y: float)` - Applies an impulse force.
+* `apply_constant_torque(impulse: float)` - Sets a constant rotation force (torque).
+* `apply_torque_impulse(torque: float)` - Applies an impulsive rotation force (torque).
+
 ## KeyCode reference
 
 Examples of key codes:
